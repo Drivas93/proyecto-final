@@ -1,0 +1,3 @@
+//Incluyo MAP en "views/proyectos.html" "scss/_proyectos.scss"
+//Incluyo MIXIN en "index.html" "scss/_aside.scss"
+//Incluyo EXTEND en "galeria.html" "scss/_galeria.scss"

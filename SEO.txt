@@ -1,0 +1,26 @@
+//General:
+	-Organización de archivos
+	-Agregué un favicon en todos los archivos
+
+//Index.html
+	-Agregué Keywords: arquitectura, muebles, cocinas, decoracion, construccion, arandas, jalisco, inmuebles
+	-Agregué Description: Cocinas, Muebles, Decoración, Proyectos Arquitectónicos y de interiorismo
+	-Modifiqué Title: Atelier Arandas | Inicio
+	-Agregué h1
+//contacto.html
+	-Agregué Keywords: contacto, construccion, arandas, jalisco, inmuebles
+	-Agregué Description: Contáctanos
+	-Modifiqué Title: Atelier Arandas | Contacto
+//galeria.html
+	-Agregué Keywords: proyectos, construccion, arandas, jalisco, inmuebles
+	-Agregué Description: Galería de imágenes
+	-Modifiqué Title: Atelier Arandas | Galería
+//nosotros.html
+	-Agregué Keywords: equipo, construccion, arandas, jalisco, inmuebles
+	-Agregué Description: Acerca de nosotros
+	-Modifiqué Title: Atelier Arandas | Nosotros
+//proyectos.html
+	-Agregué Keywords: proyectos, construccion, arandas, jalisco, inmuebles
+	-Agregué Description: Proyectos destacados.
+	-Modifiqué Title: Atelier Arandas | Proyectos
+

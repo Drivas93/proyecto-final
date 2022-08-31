@@ -1,0 +1,25 @@
+{
+  "name": "entregable-7",
+  "version": "1.0.0",
+  "description": "Incluyendo SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/compilador.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drivas93/entregable-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drivas93/entregable-7/issues"
+  },
+  "homepage": "https://github.com/Drivas93/entregable-7#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,80 @@
+// inicio MIXIN
+@mixin general($border-radius, $margin){
+    border-radius: $border-radius;
+    margin: $margin
+}
+
+
+
+.aside {
+    margin-bottom: 30px;
+
+    h2 {
+        background-color: #ffffff;
+        height: 100px;
+        color: #000000;
+        width: 98%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        @include general(20px,20px );
+    }
+    >div {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    div div {
+        width: 330px;
+        height: 400px;
+        text-align: center;
+        background-color: rgba(13, 87, 62, 0.8);
+        color: white;
+        @include general (10px, 10px);
+
+        img {
+            width: 100%;
+            border-radius: $border-radius-1;
+            object-fit: cover;
+            height: 300px;
+             // agrego media querie
+        @media (max-width:700px){
+            height: 400px;
+        }
+        }
+
+        h3 {
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            background-color: white;
+            font-weight: 400;
+            padding: 7px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        a:hover {
+            font-weight: 900;
+            transform: scale(300%); 
+        }
+        // agrego media queries
+        @media (max-width:700px){
+            width: 550px;
+            height: 550px;   
+        }
+        @media (min-width:1400px){
+            width: 250px;  
+        }
+    }
+
+}
+
